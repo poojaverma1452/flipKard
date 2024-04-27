@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" verbose="1" parallel="tests" thread-count="5">
+    <test name="MyTest">
+        <classes>
+            <class name="demo.TestCases">
+            <methods>
+            <include name="fullScrren"/>
+            <include name="testOpenBrowser"/>
+            <include name="searchItem"/>
+            <include name="selectItem"/>
+            <include name="listWashingMachine"/>
+            <include name="searchIphone"/>
+            <include name="listIphone"/>
+            <include name="searchCoffeeMug"/>
+            <include name="listCoffeeMug"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
